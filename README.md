@@ -1,3 +1,29 @@
+# viu
+
+## 実行方法
+
+このプロジェクトは Rust で開発されています。実行するには以下の手順に従ってください。
+
+### 前提条件
+
+- [Rust](https://www.rust-lang.org/tools/install)がインストールされていること
+
+### ビルドと実行
+
+```bash
+# プロジェクトをビルドする
+cargo build
+
+# プロジェクトを実行する
+cargo run
+
+# リリースモードでビルドする（最適化あり）
+cargo build --release
+
+# リリースモードで実行する
+cargo run --release
+```
+
 # 全体アーキテクチャ設計
 
 ## コア部分と UI 層の分離
